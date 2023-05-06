@@ -1,0 +1,41 @@
+/* Main Weather Data */
+.WeatherDisplay {
+    display: flex;
+  }
+  
+  .WeatherDisplay .main-forecast {
+    margin-top: 40px;
+    font-family: "Baloo 2", cursive;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .WeatherDisplay .weather-conditions {
+    text-align: right;
+    font-size: 16px;
+    line-height: 2.5em;
+  }
+  
+  .WeatherDisplay .weather-data {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  /*WEATHER ICONS */
+  .WeatherDisplay .main-icon-wrapper {
+    width: 40%;
+    margin: auto;
+  }
+  
+  .WeatherDisplay .icons-wrapper,
+  img {
+    display: inline-block;
+    margin: 15px 0px;
+    width: 50px;
+  }
+  .WeatherDisplay,
+  img {
+    -webkit-filter: drop-shadow(15px 15px 4px #222222);
+    filter: drop-shadow(15px 15px 4px #22222279);
+  }
+  

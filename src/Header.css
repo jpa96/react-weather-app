@@ -1,0 +1,55 @@
+/*HEAD OF DOCUMENT    */
+.title {
+    font-family: "Baloo 2", cursive;
+    color: #009c8fbb;
+    font-size: 18px;
+    text-align: center;
+  }
+  .time-city {
+    padding: 15px 0;
+    font-family: "Baloo 2", cursive;
+    color: #009c8f84;
+    font-size: 25px;
+  }
+  /* CITY SEARCH BAR*/
+  .search-bar {
+    display: flex;
+  }
+  .search-bar:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  }
+  .search-input {
+    padding-left: 10px;
+    text-align: left;
+    background: none;
+    border: none;
+    color: #009c8f90;
+    font-size: 12px;
+    font-family: "Baloo 2", cursive;
+  }
+  .search-input::placeholder {
+    color: #009c8f7f;
+    font-family: "Baloo 2", cursive;
+  }
+  #search-button {
+    font-size: 12px;
+    border: none;
+    background: none;
+  }
+  .search-image {
+    -webkit-filter: drop-shadow(10px 10px 2px #00000063);
+    filter: drop-shadow(10px 10px 2px #00000063);
+  }
+  /* Date & Main Forecast*/
+  .date-wrapper {
+    text-align: left;
+  }
+  .forecast-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
