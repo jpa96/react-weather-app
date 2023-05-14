@@ -7,9 +7,11 @@ import Footer from "./Footer.js"
 function App() {
   return (
     <div className="App">
+      <div className="container">
       <Header />
       <WeatherDisplay />
       <Footer />
+      </div>
     </div>
   );
 }

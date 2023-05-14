@@ -15,9 +15,9 @@ export default function Header() {
           <div className="container-fluid d-flex">
             <form className="search-bar">
               <input
-                className="search-input me-2"
+                className="form-control"
                 type="search"
-                placeholder="Click To Search City"
+                placeholder="Enter a City"
                 aria-label="Search"
                 autoFocus="off"
                 autoComplete="off"
