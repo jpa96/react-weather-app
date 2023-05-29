@@ -46,10 +46,10 @@ export default function Header() {
           </div>
         </nav>
 
-        <div class="container">
-          <div class="row date-wrapper">
-            <div class="col-12 date">{currentData.today}</div>
-            <div class="col-12 forecast-title">Forecast</div>
+        <div className="container">
+          <div className="row date-wrapper">
+            <div className="col-12 date">{currentData.today}</div>
+            <div className="col-12 forecast-title">Forecast</div>
           </div>
         </div>
       </div>
